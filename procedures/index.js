@@ -3,7 +3,7 @@ var jsPsych = initJsPsych({
   show_progress_bar: true,
   on_finish: function () {
     //jsPsych.data.displayData();
-    window.location = "https://yinlintan.github.io/singlish/procedures/thanks.html";
+    window.location = "	https://jwuwong.github.io/boston/procedures/thanks.html";
     proliferate.submit({ "trials": jsPsych.data.get().values() });
   },
   default_iti: 250
@@ -36,6 +36,7 @@ var preload_trial = {
 
 timeline.push(preload_practice);
 timeline.push(preload_trial);
+
 /*
 var stopCollection = {
     type: jsPsychHtmlKeyboardResponse,
@@ -44,6 +45,7 @@ var stopCollection = {
 };
 timeline.push(stopCollection);
 */
+
 // browser check
 /
 var checkBrowser = {
