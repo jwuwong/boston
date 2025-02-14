@@ -47,7 +47,7 @@ timeline.push(stopCollection);
 */
 
 // browser check
-/*
+
 var checkBrowser = {
   type: jsPsychBrowserCheck,
   inclusion_function: (data) => {
@@ -62,7 +62,7 @@ var checkBrowser = {
   }
 };
 timeline.push(checkBrowser);
-*/
+
 
 var instructions = {
   type: jsPsychHtmlButtonResponse,
