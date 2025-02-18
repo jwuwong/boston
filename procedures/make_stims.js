@@ -40,7 +40,7 @@ let response_temp = {
     <center>
         <div class="visual">Clip 1<p>Press "S"</p></div>
         <div class="visual">Clip 2<p>Press "L"</p></div></center>
-        <p style="text-align:center">Which clip sounds more Singlish?</p>
+        <p style="text-align:center">Which clip sounds more like someone who was <b>born in Boston?</b></p>
     </div>`,
     trial_duration: 2000, // 2s for trial
     response_ends_trial: true,

@@ -73,13 +73,13 @@ function generateTrials(trial_ord, audio_trials, response_trials) {
             <div class="visual-play">Clip 1<p>Press "S"</p></div>
             <div class="visual">Clip 2<p>Press "L"</p></div>
         </center>
-        <p style="text-align:center">Which clip sounds more like someone who was born in Boston?</p>`; // visual stimuli for clip 1, tbd
+        <p style="text-align:center">Which clip sounds more like someone who was <b>born in Boston?</b></p>`; // visual stimuli for clip 1, tbd
     let secondPrompt = `            
         <center>
             <div class="visual">Clip 1<p>Press "S"</p></div>
             <div class="visual-play">Clip 2<p>Press "L"</p></div>
         </center>
-        <p style="text-align:center">Which clip sounds more like someone who was born in Boston?</p>`; // visual stimuli for clip 2, tbd
+        <p style="text-align:center">Which clip sounds more like someone who was <b>born in Boston?</b></p>`; // visual stimuli for clip 2, tbd
 
     for (let i = 0; i < trial_ord.length; i++) {
         let [firstClip, secondClip] = trial_ord[i];
@@ -123,13 +123,13 @@ function generatePracticeTrials(audio_trials, response_trials) {
             <div class="visual-play">Clip 1<p>Press "S"</p></div>
             <div class="visual">Clip 2<p>Press "L"</p></div>
         </center>
-        <p style="text-align:center">Which clip sounds more like someone who was born in Boston?</p>`; // visual stimuli for clip 1, tbd
+        <p style="text-align:center">Which clip sounds more like someone who was <b>born in Boston?</b></p>`; // visual stimuli for clip 1, tbd
     let secondPrompt = `            
         <center>
             <div class="visual">Clip 1<p>Press "S"</p></div>
             <div class="visual-play">Clip 2<p>Press "L"</p></div>
         </center>
-        <p style="text-align:center">Which clip sounds more like someone who was born in Boston?</p>`; // visual stimuli for clip 2, tbd
+        <p style="text-align:center">Which clip sounds more like someone who was <b>born in Boston?</b></p>`; // visual stimuli for clip 2, tbd
 
     for (let i = 0; i < audio_trials.length; i++){
         let [firstAudio, secondAudio] = audio_trials[i];
